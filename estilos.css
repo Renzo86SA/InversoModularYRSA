@@ -153,20 +153,22 @@ header .textos-header{
     background: linear-gradient(to right, #AA3A38, #2F7336); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .contenedorCarousel{
-    padding: 60px 0;
+    padding: 50px 0;
     width: 90%;
-    max-width: 1000px;
+    max-width: 1500px;
     margin: auto;
 }
-
+.contenedorCarousel>titulo{
+    margin-bottom: 10s0px;
+}
 .subtitulo {
     color: #fff;
     margin: 7px 0;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 400;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
     font-family: 'Dancing Script', cursive;
-  
+    margin-top: 130px;  
 }
 .linea-division {
     width: 80%;
@@ -185,6 +187,7 @@ header .textos-header{
     user-select: none;
     width: 300px;
     height: 300px;
+    
 }
 .carousel .carousel-item img{
     width: 100%;
