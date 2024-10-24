@@ -33,9 +33,10 @@
     <section class="contenedor">
 
         <div class="content">
-            <img src="https://i.ytimg.com/vi/2hIe5mbb2lc/maxresdefault.jpg" alt="" class="image-placeholder">
+            <img src="https://i.ytimg.com/vi/XOz0NWxIakQ/maxresdefault.jpg" alt="" class="image-placeholder">
+            
             <div class="text">
-                <h3>Congruencia</h3>
+                <h3>Descubre el poder del inverso modular</h3>
                 <p>En Aritmética Modular, dos números enteros a y b son considerados congruentes con un modulo c si, al dividir ambos por n, dejan el mismo residuo.</p>
                 <p>Esto significa que a diferencia entre a y b es un multiplo de c, es decir, a - b = Kn para algún número entero k. La congruencia modular es clave en muchas ramas de las matemáticas y tiene aplicaciones importantes encriptografía, como el algoritmo RSA.</p>
             </div>
@@ -45,22 +46,11 @@
     <!-- Inverso Modular Section -->
     <section class="section-gray">
         <div class="content">
-            <img src="https://i.ytimg.com/vi/B6FuVRPRT4Y/maxresdefault.jpg" alt="" class="image-placeholder">
+            <img src="https://forum.huawei.com/enterprise/api/file/v1/small/thread/691221847129067520.png?appid=esc_es" alt="" class="image-placeholder">
             <div class="text">
-                <h3>Inverso modular</h3>
-                <p>El inverso modular de un número a bajo un módulo n es el número x tal que el producto de a y x es congruente con 1 módulo n. Es decir, cumple la ecuación de la imagen.</p>
-                <p>Esto significa que x es el valor que, al multiplicarse por a, da un resultado que, al dividirlo por n, deja un residuo de 1. El inverso modular solo existe si a y n son coprimos (su máximo común divisor es 1).</p>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Algoritmo Extendido de Euclides Section -->
-    <section class="section-white">
-        <div class="content">
-            <img src="https://i.ytimg.com/vi/x6qFMSRpgpM/maxresdefault.jpg" alt="" class="image-placeholder">
-            <div class="text">
-                <h3>Algoritmo extendido de Euclides</h3>
-                <p>El algoritmo extendido de Euclides encuentra el máximo común divisor (MCD) de dos números a y b, y también calcula los coeficientes x y y que satisfacen la identidad de Bézout: 𝑎 ⋅ 𝑥 + 𝑏 ⋅ 𝑦 = MCD (𝑎,𝑏) a⋅x+b⋅y=MCD(a,b). Es útil en criptografía</p>
+                <h3>¿Como se calcula?</h3>
+                <p>El proceso de encriptación RSA comienza generando dos números primos p y q, a partir de los cuales se calcula n = p ⋅ q y ϕ(n), que es el producto de (p − 1) y (q − 1). Luego, se elige un número e que sea coprimo con ϕ(n), y se obtiene su inverso modular d mediante el algoritmo extendido de Euclides.</p>
+                <p>La clave pública está compuesta por e y n, mientras que la privada por d y n. Para encriptar un mensaje m, se usa la fórmula c = m^e mod n. El destinatario descifra el mensaje cifrado c con su clave privada mediante m = c^d mod n, haciendo que sin la clave privada, descifrar el mensaje sea muy difícil.</p>
             </div>
         </div>
     </section>
